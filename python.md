@@ -1,26 +1,18 @@
-#%% md
-
 ---
 Python data types
-
-#%%
 
 l1 = [1, 2, 3, 4, 5]
 l1[1:3][0]=1000
 print(l1)  #???
 
-#%%
+
 
 l2 = [1, [0, 2], 3, 4, 5]
 l2[1:3][0][0]=1000
 print(l2)  #???
 
-#%% md
-
 ---
 Visibility
-
-#%%
 
 def a():
     V = 2
@@ -36,7 +28,7 @@ a()  # ???
 b()  # ???
 c()  # ???
 
-#%%
+
 
 def func(L=[]):
     L.append(1)
@@ -47,12 +39,9 @@ print(func())    # ???
 print(func([]))  # ???
 print(func())    # ???
 
-#%% md
 
 ---
 Class and inheritance
-
-#%%
 
 class A:
     def m(self):
